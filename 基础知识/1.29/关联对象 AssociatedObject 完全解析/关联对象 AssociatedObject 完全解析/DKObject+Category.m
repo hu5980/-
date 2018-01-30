@@ -10,8 +10,9 @@
 
 #import <objc/runtime.h>
 
-// MARK:说明 https://www.jianshu.com/p/79479a09a8c0#%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BA%94%E7%94%A8
-
+// MARK:说明
+//https://www.jianshu.com/p/79479a09a8c0#%E5%85%B3%E8%81%94%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%BA%94%E7%94%A8
+//http://blog.csdn.net/yangyangzhang1990/article/details/54631549
 
 
 //DKObject+Category.m:11:17: Property 'categoryProperty' requires method 'categoryProperty' to be defined - use @dynamic or provide a method implementation in this category
@@ -52,6 +53,8 @@ self.property <=> [self property]
 self.property = value <=> [self setProperty:value]
 */
 
+
+//MARK:自旋锁
 
 
 @end
