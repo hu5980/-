@@ -61,10 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				32883F382062551000A24DC5 /* main.c */,
+				32883F422062671D00A24DC5 /* Link */,
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
+		32883F422062671D00A24DC5 /* Link */ = {
+			isa = PBXGroup;
+			children = (
 				32883F3F2062552C00A24DC5 /* Link.c */,
 				32883F402062552C00A24DC5 /* Link.h */,
 			);
-			path = "数据结构";
+			path = Link;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

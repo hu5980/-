@@ -8,7 +8,7 @@
 
 #ifndef Link_h
 #define Link_h
-
+#include <stdbool.h>
 #include <stdio.h>
 
 //结构体类型
@@ -32,5 +32,8 @@ void tail_insert_list(list_single *list,list_single *node);
 
 //打印链表
 void print_list(list_single *list);
+
+//删除链表中的数据
+bool delete_list_node(list_single *list,int data);
 
 #endif /* Link_h */

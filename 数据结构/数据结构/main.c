@@ -23,7 +23,10 @@ int main(void)
     for (int i = 10; i < 20; i++) {
         tail_insert_list(headNode, create_list_node(i));
     }
-
+    
+    delete_list_node(headNode, 19); 
+    
     print_list(headNode);
+    
     return 0 ;
 }  
